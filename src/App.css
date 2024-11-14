@@ -1,0 +1,32 @@
+
+body {
+  margin: 0;
+  font-family: 'Arial', sans-serif;
+  background: #f4f7f6;
+}
+
+/* Container for the whole app */
+.app-container {
+  display: flex;
+  height: 100vh;
+  overflow: hidden;
+  background-color: #e0e7e3;
+  padding: 20px;
+
+}
+
+/* Styling for the form container */
+.form-container {
+  width:50%;
+  padding: 20px;
+  background: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTe19xF6EaKz5rEXeH09Mf9bAJ4ypE9u7cW7g&s');
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  position: relative;
+
+}
+
+
+

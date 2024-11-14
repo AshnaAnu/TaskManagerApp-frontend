@@ -1,0 +1,91 @@
+
+
+.task-container {
+    padding: 10px;
+    width: 100%;
+    background: #35aa83;
+    overflow-y: auto;
+    box-shadow: inset -2px 0 4px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: start;
+  
+  }
+
+  .task-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px; 
+    justify-content: start; 
+    padding: 20px;
+    background-color: #35aa83; 
+    overflow-y: auto; 
+  }
+  
+  /* Card styles */
+  .task-card {
+    background: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 280px;
+    height: 280px; 
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start; 
+    gap: 10px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    cursor: pointer; 
+    overflow: hidden; 
+  }
+  
+
+  .task-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    background: #f8f9fa; 
+  }
+  
+  /* Task title styling */
+  .task-card h3 {
+    margin: 0;
+    color: #2c3e50;
+    font-size: 1.2rem;
+    font-weight: 600;
+    text-transform: uppercase;
+  }
+  
+ 
+
+  .task-card p {
+    color: #666666;
+    font-size: 0.875rem; 
+    line-height: 1.5; 
+    margin: 0; 
+    overflow: auto; 
+    text-overflow: unset; 
+    white-space: normal; 
+    flex-grow: 1; 
+    display: block; 
+  }
+  
+  /* Button styling */
+  .task-card button {
+    background: #35aa83;
+    color: #ffffff;
+    border: none;
+    border-radius: 8px;
+    padding: 10px 15px;
+    cursor: pointer;
+    font-size: 0.875rem;
+    transition: background 0.3s ease;
+    align-self: flex-start; 
+  }
+  
+  /* Button hover effect */
+  .task-card button:hover {
+    background: #2e8b6a;
+  }
